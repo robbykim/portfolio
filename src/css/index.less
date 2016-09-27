@@ -1,16 +1,210 @@
-@yellow: #F4D35E;
-@yellow75: hsl(hue(@yellow), 100%, 75%);
-@yellow50: hsl(hue(@yellow), 100%, 50%);
-@yellow25: hsl(hue(@yellow), 100%, 25%);
-@blue: #083D77;
-@blue75: hsl(hue(@blue), 100%, 75%);
-@blue50: hsl(hue(@blue), 100%, 50%);
-@blue25: hsl(hue(@blue), 100%, 25%);
+@black: #1E2835;
+@gray75: #404853;
+@gray50: #8E939A;
+@gray40: #d0d2d5;
+@gray25: #EEEEEF;
+@gray15: #F6F7F7;
+@gray5: #FAFBFB;
 @white: #EBF5EE;
-@white75: hsl(hue(@white), 100%, 75%);
-@white50: hsl(hue(@white), 100%, 50%);
-@white25: hsl(hue(@white), 100%, 25%);
 
-body {
-  background-color: @yellow75;
+@yellow: #F4D35E;
+@yellow125: darken(@yellow, 30%);
+@yellow75: mix(@yellow, @white, 75%);
+@yellow50: mix(@yellow, @white, 50%);
+@yellow25: mix(@yellow, @white, 25%);
+@yellow5: mix(@yellow, @white, 7%);
+
+@blue: #083D77;
+@blue125: darken(@blue, 10%);
+@blue75: mix(@blue, @white, 75%);
+@blue50: mix(@blue, @white, 50%);
+@blue25: mix(@blue, @white, 25%);
+@blue5: mix(@blue, @white, 7%);
+
+// Globals
+
+body, html {
+  height: 100%;
+  color: @white;
+  background-color: @blue;
+
+  font-size: 1rem;
+  line-height: 1.875;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.02rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size: 3rem;
+}
+
+// Section styling
+
+.head-section {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8rem 0;
+
+  div.intro-head {
+    text-align: center;
+
+    h1 {
+      margin-bottom: -1.3rem;
+      color: @yellow;
+    }
+
+    h2 {
+      margin-bottom: -0.5rem;
+    }
+
+    h3 {
+      font-weight: 400;
+    }
+
+    h4 {
+      color: @blue125;
+    }
+
+    div.intro-social {
+      display: flex;
+      justify-content: space-between;
+      width: 11rem;
+      margin: 0 auto;
+      margin-top: 0.5rem;
+      color: @blue125
+    }
+  }
+
+  div.intro-content {
+    width: 37rem;
+
+    p {
+      margin-top: 1.6rem;
+    }
+
+    div.skills-section {
+      display: flex;
+      justify-content: space-between;
+
+      h3 {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        color: @yellow;
+      }
+
+      div.skills-skill {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 16rem;
+        color: @blue125;
+
+        span {
+          font-size: 0.7rem;
+          color: @white;
+        }
+      }
+    }
+  }
+}
+
+.work-section {
+  color: @blue;
+  background-color: @yellow;
+  padding: 6rem 0;
+
+  .work-container {
+    width: 70%;
+    margin: 0 auto;
+
+    h1 {
+      margin-bottom: 4rem;
+    }
+
+    .proj-container {
+      display: flex;
+      align-items: center;
+      margin-bottom: 4rem;
+
+      h2 {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        font-size: 2rem;
+        margin-bottom: -0.6rem;
+      }
+
+      .left {
+        margin-right: 4rem;
+      }
+
+      .right {
+        margin-left: 4rem;
+      }
+
+      .proj-lang {
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        font-size: 0.9rem;
+        color: @yellow125;
+      }
+
+      .proj-screenshot {
+        background-color: @gray75;
+        padding: 8rem 12rem;
+      }
+
+      .proj-detail {
+
+      }
+    }
+  }
+}
+
+.intouch-section {
+  width: 70%;
+  margin: 0 auto;
+  padding: 6rem 0;
+}
+
+.footer-section {
+  background-color: @yellow;
+  color: @gray75;
+  padding: 1.2rem 0;
+  display: flex;
+  align-items: center;
+
+  .footer-container {
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    color: @yellow125;
+
+    h2 {
+      font-family: 'Work Sans', sans-serif;
+      font-weight: 300;
+      letter-spacing: 0.03rem;
+      color: @blue125;
+    }
+
+    div {
+      display: flex;
+      justify-content: space-between;
+      width: 10rem;
+      margin: 0 auto;
+      margin-bottom: 1rem;
+    }
+  }
 }

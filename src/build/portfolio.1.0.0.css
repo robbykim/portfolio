@@ -1,4 +1,151 @@
-body {
-  background-color: #ffe380;
+body,
+html {
+  height: 100%;
+  color: #EBF5EE;
+  background-color: #083D77;
+  font-size: 1rem;
+  line-height: 1.875;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.02rem;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+h1 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size: 3rem;
+}
+.head-section {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8rem 0;
+}
+.head-section div.intro-head {
+  text-align: center;
+}
+.head-section div.intro-head h1 {
+  margin-bottom: -1.3rem;
+  color: #F4D35E;
+}
+.head-section div.intro-head h2 {
+  margin-bottom: -0.5rem;
+}
+.head-section div.intro-head h3 {
+  font-weight: 400;
+}
+.head-section div.intro-head h4 {
+  color: #052547;
+}
+.head-section div.intro-head div.intro-social {
+  display: flex;
+  justify-content: space-between;
+  width: 11rem;
+  margin: 0 auto;
+  margin-top: 0.5rem;
+  color: #052547;
+}
+.head-section div.intro-content {
+  width: 37rem;
+}
+.head-section div.intro-content p {
+  margin-top: 1.6rem;
+}
+.head-section div.intro-content div.skills-section {
+  display: flex;
+  justify-content: space-between;
+}
+.head-section div.intro-content div.skills-section h3 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  color: #F4D35E;
+}
+.head-section div.intro-content div.skills-section div.skills-skill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 16rem;
+  color: #052547;
+}
+.head-section div.intro-content div.skills-section div.skills-skill span {
+  font-size: 0.7rem;
+  color: #EBF5EE;
+}
+.work-section {
+  color: #083D77;
+  background-color: #F4D35E;
+  padding: 6rem 0;
+}
+.work-section .work-container {
+  width: 70%;
+  margin: 0 auto;
+}
+.work-section .work-container h1 {
+  margin-bottom: 4rem;
+}
+.work-section .work-container .proj-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+.work-section .work-container .proj-container h2 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  margin-bottom: -0.6rem;
+}
+.work-section .work-container .proj-container .left {
+  margin-right: 4rem;
+}
+.work-section .work-container .proj-container .right {
+  margin-left: 4rem;
+}
+.work-section .work-container .proj-container .proj-lang {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size: 0.9rem;
+  color: #ad8a0c;
+}
+.work-section .work-container .proj-container .proj-screenshot {
+  background-color: #404853;
+  padding: 8rem 12rem;
+}
+.intouch-section {
+  width: 70%;
+  margin: 0 auto;
+  padding: 6rem 0;
+}
+.footer-section {
+  background-color: #F4D35E;
+  color: #404853;
+  padding: 1.2rem 0;
+  display: flex;
+  align-items: center;
+}
+.footer-section .footer-container {
+  max-width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  color: #ad8a0c;
+}
+.footer-section .footer-container h2 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.03rem;
+  color: #052547;
+}
+.footer-section .footer-container div {
+  display: flex;
+  justify-content: space-between;
+  width: 10rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
 }
 /*# sourceMappingURL=portfolio.1.0.0.css.map */
