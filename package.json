@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/js/index.jsx",
+  "engines": {
+    "node": "6.6.0"
+  },
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js & npm run watch",
