@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "src/js/index.jsx",
+  "main": "server.js",
   "engines": {
     "node": "6.6.0"
   },
