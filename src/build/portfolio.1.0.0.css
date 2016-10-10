@@ -2,7 +2,7 @@ body,
 html {
   height: 100%;
   color: #EBF5EE;
-  background-color: #083D77;
+  background-color: #184a7f;
   font-size: 1rem;
   line-height: 1.875;
   -webkit-font-smoothing: antialiased;
@@ -19,18 +19,21 @@ h1 {
   font-size: 3rem;
 }
 .head-section {
-  display: flex;
-  width: 70%;
+  max-width: 80%;
   margin: 0 auto;
-  justify-content: space-between;
-  align-items: center;
   padding: 8rem 0;
+  display: flex;
+  align-items: center;
 }
 .head-section div.intro-head {
+  display: inline-block;
   text-align: center;
+  width: 38%;
+  margin-right: 2%;
 }
 .head-section div.intro-head h1 {
   margin-bottom: -1.3rem;
+  margin-top: -1.5rem;
   color: #F4D35E;
 }
 .head-section div.intro-head h2 {
@@ -43,38 +46,46 @@ h1 {
   color: #052547;
 }
 .head-section div.intro-head div.intro-social {
-  display: flex;
-  justify-content: space-between;
   width: 11rem;
   margin: 0 auto;
   margin-top: 0.5rem;
+}
+.head-section div.intro-head div.intro-social a {
   color: #052547;
+  margin-right: 1rem;
+  transition: color 0.3s ease-in-out;
+}
+.head-section div.intro-head div.intro-social a:last-child {
+  margin-right: 0rem;
+}
+.head-section div.intro-head div.intro-social a:hover {
+  color: #7a99b3;
 }
 .head-section div.intro-content {
-  width: 37rem;
+  display: inline-block;
+  width: 60%;
 }
 .head-section div.intro-content p {
-  margin-top: 1.6rem;
+  margin-bottom: 1rem;
 }
-.head-section div.intro-content div.skills-section {
-  display: flex;
-  justify-content: space-between;
+.head-section div.intro-content div.skills-section .skills-lang {
+  margin-right: 3rem;
+}
+.head-section div.intro-content div.skills-section .skills-lang,
+.head-section div.intro-content div.skills-section .skills-framework {
+  display: inline-block;
 }
 .head-section div.intro-content div.skills-section h3 {
   font-family: 'Work Sans', sans-serif;
   font-weight: 300;
   color: #F4D35E;
+  margin-bottom: 0.3rem;
 }
-.head-section div.intro-content div.skills-section div.skills-skill {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 16rem;
-  color: #052547;
-}
-.head-section div.intro-content div.skills-section div.skills-skill span {
-  font-size: 0.7rem;
-  color: #EBF5EE;
+.head-section div.intro-content div.skills-section img {
+  width: 3rem;
+  height: 3rem;
+  display: inline-block;
+  margin-right: 1rem;
 }
 .work-section {
   color: #083D77;

@@ -54,7 +54,7 @@
 	
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 	
-	var _pageContainer = __webpack_require__(195);
+	var _pageContainer = __webpack_require__(172);
 	
 	var _pageContainer2 = _interopRequireDefault(_pageContainer);
 	
@@ -21437,30 +21437,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ },
-/* 172 */,
-/* 173 */,
-/* 174 */,
-/* 175 */,
-/* 176 */,
-/* 177 */,
-/* 178 */,
-/* 179 */,
-/* 180 */,
-/* 181 */,
-/* 182 */,
-/* 183 */,
-/* 184 */,
-/* 185 */,
-/* 186 */,
-/* 187 */,
-/* 188 */,
-/* 189 */,
-/* 190 */,
-/* 191 */,
-/* 192 */,
-/* 193 */,
-/* 194 */,
-/* 195 */
+/* 172 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -21471,19 +21448,19 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _header = __webpack_require__(196);
+	var _header = __webpack_require__(173);
 	
 	var _header2 = _interopRequireDefault(_header);
 	
-	var _work = __webpack_require__(197);
+	var _work = __webpack_require__(174);
 	
 	var _work2 = _interopRequireDefault(_work);
 	
-	var _inTouch = __webpack_require__(198);
+	var _inTouch = __webpack_require__(175);
 	
 	var _inTouch2 = _interopRequireDefault(_inTouch);
 	
-	var _footer = __webpack_require__(199);
+	var _footer = __webpack_require__(176);
 	
 	var _footer2 = _interopRequireDefault(_footer);
 	
@@ -21529,7 +21506,7 @@
 	module.exports = PageContainer;
 
 /***/ },
-/* 196 */
+/* 173 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -21570,9 +21547,21 @@
 	      _react2.default.createElement(
 	        "div",
 	        { className: "intro-social" },
-	        _react2.default.createElement("i", { className: "fa fa-envelope fa-3x", "aria-hidden": "true" }),
-	        _react2.default.createElement("i", { className: "fa fa-linkedin-square fa-3x", "aria-hidden": "true" }),
-	        _react2.default.createElement("i", { className: "fa fa-github fa-3x", "aria-hidden": "true" })
+	        _react2.default.createElement(
+	          "a",
+	          { href: "mailto:robert.st.kim@gmail.com" },
+	          _react2.default.createElement("i", { className: "fa fa-envelope fa-3x", "aria-hidden": "true" })
+	        ),
+	        _react2.default.createElement(
+	          "a",
+	          { href: "https://www.linkedin.com/in/robby-kim-29670867", target: "_blank" },
+	          _react2.default.createElement("i", { className: "fa fa-linkedin-square fa-3x", "aria-hidden": "true" })
+	        ),
+	        _react2.default.createElement(
+	          "a",
+	          { href: "https://github.com/robbykim", target: "_blank" },
+	          _react2.default.createElement("i", { className: "fa fa-github fa-3x", "aria-hidden": "true" })
+	        )
 	      )
 	    ),
 	    _react2.default.createElement(
@@ -21581,7 +21570,7 @@
 	      _react2.default.createElement(
 	        "p",
 	        null,
-	        "Hi! I'm Robby. I'm a bootcamp grad from Thinkful coming from an architectural design background from the University of Michigan. I build full stack applications but specialize on the Frontend with React, Redux, and Design."
+	        "Hi! I'm Robby. I'm a web developer coming from an architectural design background from the University of Michigan. I build full stack applications but specialize on the front end with React, Redux, and Design. I also love cycling, playing my guitar and rapping Hamilton."
 	      ),
 	      _react2.default.createElement(
 	        "div",
@@ -21594,75 +21583,9 @@
 	            null,
 	            "languages:"
 	          ),
-	          _react2.default.createElement(
-	            "div",
-	            { className: "skills-skill" },
-	            _react2.default.createElement(
-	              "span",
-	              null,
-	              "javascript"
-	            ),
-	            _react2.default.createElement(
-	              "div",
-	              { className: "skills-bar" },
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle-thin", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle-thin", "aria-hidden": "true" })
-	            )
-	          ),
-	          _react2.default.createElement(
-	            "div",
-	            { className: "skills-skill" },
-	            _react2.default.createElement(
-	              "span",
-	              null,
-	              "html5"
-	            ),
-	            _react2.default.createElement(
-	              "div",
-	              { className: "skills-bar" },
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle-thin", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle-thin", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle-thin", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle-thin", "aria-hidden": "true" })
-	            )
-	          ),
-	          _react2.default.createElement(
-	            "div",
-	            { className: "skills-skill" },
-	            _react2.default.createElement(
-	              "span",
-	              null,
-	              "css3"
-	            ),
-	            _react2.default.createElement(
-	              "div",
-	              { className: "skills-bar" },
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle-thin", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle-thin", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle-thin", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle-thin", "aria-hidden": "true" })
-	            )
-	          )
+	          _react2.default.createElement("img", { src: "img/js.svg", alt: "javascript" }),
+	          _react2.default.createElement("img", { src: "img/css.svg", alt: "css3" }),
+	          _react2.default.createElement("img", { src: "img/html.svg", alt: "html5" })
 	        ),
 	        _react2.default.createElement(
 	          "div",
@@ -21672,75 +21595,10 @@
 	            null,
 	            "frameworks:"
 	          ),
-	          _react2.default.createElement(
-	            "div",
-	            { className: "skills-skill" },
-	            _react2.default.createElement(
-	              "span",
-	              null,
-	              "react/redux"
-	            ),
-	            _react2.default.createElement(
-	              "div",
-	              { className: "skills-bar" },
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle-thin", "aria-hidden": "true" })
-	            )
-	          ),
-	          _react2.default.createElement(
-	            "div",
-	            { className: "skills-skill" },
-	            _react2.default.createElement(
-	              "span",
-	              null,
-	              "node.js"
-	            ),
-	            _react2.default.createElement(
-	              "div",
-	              { className: "skills-bar" },
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle-thin", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle-thin", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle-thin", "aria-hidden": "true" })
-	            )
-	          ),
-	          _react2.default.createElement(
-	            "div",
-	            { className: "skills-skill" },
-	            _react2.default.createElement(
-	              "span",
-	              null,
-	              "react native"
-	            ),
-	            _react2.default.createElement(
-	              "div",
-	              { className: "skills-bar" },
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle-thin", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle-thin", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle-thin", "aria-hidden": "true" }),
-	              _react2.default.createElement("i", { className: "fa fa-circle-thin", "aria-hidden": "true" })
-	            )
-	          )
+	          _react2.default.createElement("img", { src: "img/react.svg", alt: "react" }),
+	          _react2.default.createElement("img", { src: "img/node.svg", alt: "node" }),
+	          _react2.default.createElement("img", { src: "img/rn.svg", alt: "react native" }),
+	          _react2.default.createElement("img", { src: "img/jquery.svg", alt: "jquery" })
 	        )
 	      )
 	    )
@@ -21750,7 +21608,7 @@
 	module.exports = Header;
 
 /***/ },
-/* 197 */
+/* 174 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -22012,7 +21870,7 @@
 	module.exports = Work;
 
 /***/ },
-/* 198 */
+/* 175 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -22043,7 +21901,7 @@
 	module.exports = InTouch;
 
 /***/ },
-/* 199 */
+/* 176 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";

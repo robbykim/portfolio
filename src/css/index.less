@@ -16,7 +16,7 @@
 
 @blue: #083D77;
 @blue125: darken(@blue, 10%);
-@blue75: mix(@blue, @white, 75%);
+@blue75: mix(@blue, @white, 93%);
 @blue50: mix(@blue, @white, 50%);
 @blue25: mix(@blue, @white, 25%);
 @blue5: mix(@blue, @white, 7%);
@@ -26,7 +26,7 @@
 body, html {
   height: 100%;
   color: @white;
-  background-color: @blue;
+  background-color: @blue75;
 
   font-size: 1rem;
   line-height: 1.875;
@@ -49,18 +49,22 @@ h1 {
 // Section styling
 
 .head-section {
-  display: flex;
-  width: 70%;
+  max-width: 80%;
   margin: 0 auto;
-  justify-content: space-between;
-  align-items: center;
   padding: 8rem 0;
 
+  display: flex;
+  align-items: center;
+
   div.intro-head {
+    display: inline-block;
     text-align: center;
+    width: 38%;
+    margin-right: 2%;
 
     h1 {
       margin-bottom: -1.3rem;
+      margin-top: -1.5rem;
       color: @yellow;
     }
 
@@ -77,43 +81,56 @@ h1 {
     }
 
     div.intro-social {
-      display: flex;
-      justify-content: space-between;
       width: 11rem;
       margin: 0 auto;
       margin-top: 0.5rem;
-      color: @blue125
+
+      a {
+        color: @blue125;
+        margin-right: 1rem;
+        transition: color 0.3s ease-in-out;
+
+        &:last-child {
+          margin-right: 0rem;
+        }
+
+        &:hover {
+          color: @blue50;
+        }
+      }
     }
   }
 
   div.intro-content {
-    width: 37rem;
+    display: inline-block;
+    width: 60%;
 
     p {
-      margin-top: 1.6rem;
+      margin-bottom: 1rem;
     }
 
     div.skills-section {
-      display: flex;
-      justify-content: space-between;
+      .skills-lang {
+        margin-right: 3rem;
+      }
+
+      .skills-lang,
+      .skills-framework {
+        display: inline-block;
+      }
 
       h3 {
         font-family: 'Work Sans', sans-serif;
         font-weight: 300;
         color: @yellow;
+        margin-bottom: 0.3rem;
       }
 
-      div.skills-skill {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 16rem;
-        color: @blue125;
-
-        span {
-          font-size: 0.7rem;
-          color: @white;
-        }
+      img {
+        width: 3rem;
+        height: 3rem;
+        display: inline-block;
+        margin-right: 1rem;
       }
     }
   }
