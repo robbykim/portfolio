@@ -119,14 +119,16 @@ h1 {
 .work-section .work-container .proj-container .proj-lang {
   display: flex;
   justify-content: space-between;
-  font-family: 'Work Sans', sans-serif;
   font-weight: 300;
   font-size: 0.9rem;
   color: #ad8a0c;
 }
 .work-section .work-container .proj-container .proj-screenshot {
-  background-color: #404853;
   padding: 8rem 12rem;
+  background-size: cover;
+}
+#korean-x .proj-screenshot {
+  background-position: center;
 }
 .intouch-section {
   width: 70%;

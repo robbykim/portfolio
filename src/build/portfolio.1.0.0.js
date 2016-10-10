@@ -21633,8 +21633,8 @@
 	      ),
 	      _react2.default.createElement(
 	        "div",
-	        { className: "proj-container" },
-	        _react2.default.createElement("div", { className: "proj-screenshot left" }),
+	        { className: "proj-container", id: "book-kit" },
+	        _react2.default.createElement("div", { className: "proj-screenshot left", style: { backgroundImage: 'url(img/bookkit.png)' } }),
 	        _react2.default.createElement(
 	          "div",
 	          { className: "proj-detail right" },
@@ -21691,7 +21691,7 @@
 	      ),
 	      _react2.default.createElement(
 	        "div",
-	        { className: "proj-container" },
+	        { className: "proj-container", id: "connect-four" },
 	        _react2.default.createElement(
 	          "div",
 	          { className: "proj-detail left" },
@@ -21745,12 +21745,12 @@
 	            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, ut modi, quas dicta culpa, perferendis explicabo eos obcaecati, asperiores ab natus accusantium expedita voluptatem. Reprehenderit eaque, unde fugiat nemo dolores.'
 	          )
 	        ),
-	        _react2.default.createElement("div", { className: "proj-screenshot right" })
+	        _react2.default.createElement("div", { className: "proj-screenshot right", style: { backgroundImage: 'url(img/connect4.png)' } })
 	      ),
 	      _react2.default.createElement(
 	        "div",
-	        { className: "proj-container" },
-	        _react2.default.createElement("div", { className: "proj-screenshot left" }),
+	        { className: "proj-container", id: "onpoint" },
+	        _react2.default.createElement("div", { className: "proj-screenshot left", style: { backgroundImage: 'url(img/onpoint.png)' } }),
 	        _react2.default.createElement(
 	          "div",
 	          { className: "proj-detail right" },
@@ -21807,7 +21807,7 @@
 	      ),
 	      _react2.default.createElement(
 	        "div",
-	        { className: "proj-container" },
+	        { className: "proj-container", id: "korean-x" },
 	        _react2.default.createElement(
 	          "div",
 	          { className: "proj-detail left" },
@@ -21861,7 +21861,7 @@
 	            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, ut modi, quas dicta culpa, perferendis explicabo eos obcaecati, asperiores ab natus accusantium expedita voluptatem. Reprehenderit eaque, unde fugiat nemo dolores.'
 	          )
 	        ),
-	        _react2.default.createElement("div", { className: "proj-screenshot right" })
+	        _react2.default.createElement("div", { className: "proj-screenshot right", style: { backgroundImage: 'url(img/korean-x.png)' } })
 	      )
 	    )
 	  );

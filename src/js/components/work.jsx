@@ -5,8 +5,8 @@ function Work() {
     <section className="work-section">
       <div className="work-container">
         <h1>work -</h1>
-        <div className="proj-container">
-          <div className="proj-screenshot left" />
+        <div className="proj-container" id="book-kit">
+          <div className="proj-screenshot left" style={{ backgroundImage: 'url(img/bookkit.png)'}} />
           <div className="proj-detail right">
             <h2>book kit</h2>
             <div className="proj-lang">
@@ -23,7 +23,7 @@ function Work() {
             </p>
           </div>
         </div>
-        <div className="proj-container">
+        <div className="proj-container" id="connect-four">
           <div className="proj-detail left">
             <h2>connect 4 with friends</h2>
             <div className="proj-lang">
@@ -39,10 +39,10 @@ function Work() {
               {'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, ut modi, quas dicta culpa, perferendis explicabo eos obcaecati, asperiores ab natus accusantium expedita voluptatem. Reprehenderit eaque, unde fugiat nemo dolores.'}
             </p>
           </div>
-          <div className="proj-screenshot right" />
+          <div className="proj-screenshot right" style={{ backgroundImage: 'url(img/connect4.png)'}}  />
         </div>
-        <div className="proj-container">
-          <div className="proj-screenshot left" />
+        <div className="proj-container" id="onpoint">
+          <div className="proj-screenshot left" style={{ backgroundImage: 'url(img/onpoint.png)'}}  />
           <div className="proj-detail right">
             <h2>onpoint scores</h2>
             <div className="proj-lang">
@@ -59,7 +59,7 @@ function Work() {
             </p>
           </div>
         </div>
-        <div className="proj-container">
+        <div className="proj-container" id="korean-x">
           <div className="proj-detail left">
             <h2>korean-x</h2>
             <div className="proj-lang">
@@ -75,7 +75,7 @@ function Work() {
               {'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, ut modi, quas dicta culpa, perferendis explicabo eos obcaecati, asperiores ab natus accusantium expedita voluptatem. Reprehenderit eaque, unde fugiat nemo dolores.'}
             </p>
           </div>
-          <div className="proj-screenshot right" />
+          <div className="proj-screenshot right" style={{ backgroundImage: 'url(img/korean-x.png)'}}  />
         </div>
       </div>
     </section>
