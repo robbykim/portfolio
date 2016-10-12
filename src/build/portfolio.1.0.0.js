@@ -21650,17 +21650,16 @@
 	          ),
 	          _react2.default.createElement(
 	            "span",
-	            null,
-	            _react2.default.createElement(
-	              "a",
-	              { href: "https://github.com/turbo-octo-happiness/book-kit/" },
-	              "github"
-	            ),
-	            " | ",
+	            { className: "proj-demo" },
 	            _react2.default.createElement(
 	              "a",
 	              { href: "http://book-kit.herokuapp.com/" },
-	              "demo"
+	              _react2.default.createElement("i", { className: "fa fa-desktop", "aria-hidden": "true" })
+	            ),
+	            _react2.default.createElement(
+	              "a",
+	              { href: "https://github.com/turbo-octo-happiness/book-kit/" },
+	              _react2.default.createElement("i", { className: "fa fa-github fa-lg", "aria-hidden": "true" })
 	            )
 	          ),
 	          _react2.default.createElement(
@@ -21728,17 +21727,16 @@
 	          ),
 	          _react2.default.createElement(
 	            "span",
-	            null,
-	            _react2.default.createElement(
-	              "a",
-	              { href: "https://github.com/robbykim/connect-four" },
-	              "github"
-	            ),
-	            " | ",
+	            { className: "proj-demo" },
 	            _react2.default.createElement(
 	              "a",
 	              { href: "https://cryptic-beach-71692.herokuapp.com/" },
-	              "demo"
+	              _react2.default.createElement("i", { className: "fa fa-desktop", "aria-hidden": "true" })
+	            ),
+	            _react2.default.createElement(
+	              "a",
+	              { href: "https://github.com/robbykim/connect-four" },
+	              _react2.default.createElement("i", { className: "fa fa-github fa-lg", "aria-hidden": "true" })
 	            )
 	          ),
 	          _react2.default.createElement(
@@ -21809,17 +21807,11 @@
 	          ),
 	          _react2.default.createElement(
 	            "span",
-	            null,
+	            { className: "proj-demo" },
 	            _react2.default.createElement(
 	              "a",
 	              { href: "https://github.com/robbykim/onpoint-react-native" },
-	              "github"
-	            ),
-	            " | ",
-	            _react2.default.createElement(
-	              "a",
-	              { href: "#" },
-	              "demo"
+	              _react2.default.createElement("i", { className: "fa fa-github fa-lg", "aria-hidden": "true" })
 	            )
 	          ),
 	          _react2.default.createElement(
@@ -21887,17 +21879,16 @@
 	          ),
 	          _react2.default.createElement(
 	            "span",
-	            null,
-	            _react2.default.createElement(
-	              "a",
-	              { href: "https://github.com/robbykim/korean-x" },
-	              "github"
-	            ),
-	            " | ",
+	            { className: "proj-demo" },
 	            _react2.default.createElement(
 	              "a",
 	              { href: "https://young-anchorage-88242.herokuapp.com/" },
-	              "demo"
+	              _react2.default.createElement("i", { className: "fa fa-desktop", "aria-hidden": "true" })
+	            ),
+	            _react2.default.createElement(
+	              "a",
+	              { href: "https://github.com/robbykim/korean-x" },
+	              _react2.default.createElement("i", { className: "fa fa-github fa-lg", "aria-hidden": "true" })
 	            )
 	          ),
 	          _react2.default.createElement(

@@ -9,8 +9,13 @@ function Work() {
           <div className="proj-screenshot left" style={{ backgroundImage: 'url(img/bookkit.png)'}} />
           <div className="proj-detail right">
             <h2>book kit</h2>
-            <span>
-              <a href="https://github.com/turbo-octo-happiness/book-kit/">github</a> | <a href="http://book-kit.herokuapp.com/">demo</a>
+            <span className="proj-demo">
+              <a href="http://book-kit.herokuapp.com/">
+                <i className="fa fa-desktop" aria-hidden="true" />
+              </a>
+              <a href="https://github.com/turbo-octo-happiness/book-kit/">
+                <i className="fa fa-github fa-lg" aria-hidden="true" />
+              </a>
             </span>
             <div className="proj-lang">
               <span>react</span>
@@ -30,8 +35,13 @@ function Work() {
         <div className="proj-container" id="connect-four">
           <div className="proj-detail left">
             <h2>connect 4 with friends</h2>
-            <span>
-              <a href="https://github.com/robbykim/connect-four">github</a> | <a href="https://cryptic-beach-71692.herokuapp.com/">demo</a>
+            <span className="proj-demo">
+              <a href="https://cryptic-beach-71692.herokuapp.com/">
+                <i className="fa fa-desktop" aria-hidden="true" />
+              </a>
+              <a href="https://github.com/robbykim/connect-four">
+                <i className="fa fa-github fa-lg" aria-hidden="true" />
+              </a>
             </span>
             <div className="proj-lang">
               <span>react</span>
@@ -54,8 +64,10 @@ function Work() {
           <div className="proj-screenshot left" style={{ backgroundImage: 'url(img/onpoint.png)' }} />
           <div className="proj-detail right">
             <h2>onpoint scores</h2>
-            <span>
-              <a href="https://github.com/robbykim/onpoint-react-native">github</a> | <a href="#">demo</a>
+            <span className="proj-demo">
+              <a href="https://github.com/robbykim/onpoint-react-native">
+                <i className="fa fa-github fa-lg" aria-hidden="true" />
+              </a>
             </span>
             <div className="proj-lang">
               <span>react native</span>
@@ -75,8 +87,13 @@ function Work() {
         <div className="proj-container" id="korean-x">
           <div className="proj-detail left">
             <h2>korean-x</h2>
-            <span>
-              <a href="https://github.com/robbykim/korean-x">github</a> | <a href="https://young-anchorage-88242.herokuapp.com/">demo</a>
+            <span className="proj-demo">
+              <a href="https://young-anchorage-88242.herokuapp.com/">
+                <i className="fa fa-desktop" aria-hidden="true" />
+              </a>
+              <a href="https://github.com/robbykim/korean-x">
+                <i className="fa fa-github fa-lg" aria-hidden="true" />
+              </a>
             </span>
             <div className="proj-lang">
               <span>react</span>

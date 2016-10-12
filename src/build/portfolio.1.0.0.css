@@ -97,7 +97,8 @@ a:hover {
   padding: 6rem 0;
 }
 .work-section .work-container {
-  width: 70%;
+  width: 100%;
+  max-width: 70%;
   margin: 0 auto;
 }
 .work-section .work-container h1 {
@@ -111,14 +112,29 @@ a:hover {
 .work-section .work-container .proj-container h2 {
   font-family: 'Work Sans', sans-serif;
   font-weight: 300;
-  font-size: 2rem;
+  font-size: 1.7rem;
   margin-bottom: -0.6rem;
+  margin-right: 1.5rem;
+  display: inline-block;
 }
 .work-section .work-container .proj-container .left {
   margin-right: 4rem;
 }
 .work-section .work-container .proj-container .right {
   margin-left: 4rem;
+}
+.work-section .work-container .proj-container .proj-demo {
+  vertical-align: 0.1rem;
+}
+.work-section .work-container .proj-container .proj-demo a {
+  margin-right: 0.4rem;
+}
+.work-section .work-container .proj-container .proj-demo a:last-child {
+  margin-right: 0;
+}
+.work-section .work-container .proj-container .proj-demo a .fa-desktop {
+  font-size: 1rem;
+  vertical-align: -1px;
 }
 .work-section .work-container .proj-container .proj-lang {
   display: flex;
@@ -128,21 +144,14 @@ a:hover {
   color: #ad8a0c;
 }
 .work-section .work-container .proj-container .proj-screenshot {
-  padding: 8rem 12rem;
+  padding: 15% 21.5%;
   background-size: cover;
 }
 #korean-x .proj-screenshot {
   background-position: center;
 }
-.intouch-section {
-  width: 70%;
-  margin: 0 auto;
-  padding: 6rem 0;
-}
 .footer-section {
   padding: 1.2rem 0;
-  display: flex;
-  align-items: center;
 }
 .footer-section .footer-container {
   max-width: 70%;
@@ -155,10 +164,51 @@ a:hover {
   letter-spacing: 0.03rem;
 }
 .footer-section .footer-container div {
-  display: flex;
-  justify-content: space-between;
-  width: 10rem;
+  width: 11rem;
   margin: 0 auto;
-  margin-bottom: 0.4rem;
+}
+.footer-section .footer-container div a {
+  margin-right: 1rem;
+}
+.footer-section .footer-container div a:last-child {
+  margin-right: 0rem;
+}
+@media (max-width: 1035px) {
+  .head-section {
+    max-width: 90%;
+  }
+  .head-section div.intro-content div.skills-section .skills-lang {
+    margin-right: 1rem;
+  }
+  .work-section .work-container {
+    max-width: 90%;
+  }
+}
+@media (max-width: 860px) {
+  .head-section {
+    display: block;
+    padding: 3rem 0;
+  }
+  .head-section div.intro-head {
+    display: block;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+  }
+  .head-section div.intro-content {
+    display: block;
+    max-width: 70%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .head-section div.intro-content p {
+    margin-bottom: 3rem;
+  }
+  .work-section {
+    padding: 3rem 0;
+  }
+  .work-section .work-container .proj-container .left {
+    margin-right: 0;
+  }
 }
 /*# sourceMappingURL=portfolio.1.0.0.css.map */
