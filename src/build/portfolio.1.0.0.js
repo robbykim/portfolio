@@ -21570,7 +21570,13 @@
 	      _react2.default.createElement(
 	        "p",
 	        null,
-	        "Hi! I'm Robby. I'm a web developer coming from an architectural design background from the University of Michigan. I build full stack applications but specialize on the front end with React, Redux, and Design. I also love cycling, playing my guitar and rapping Hamilton."
+	        'Hi! I\'m Robby. I\'m a web developer with an architectural design background from the ',
+	        _react2.default.createElement(
+	          "a",
+	          { href: "http://www.espn.com/college-football/team/_/id/130", target: "_blank" },
+	          'University of Michigan'
+	        ),
+	        '. I build full stack applications but specialize on the front end with React, Redux, and Design. I also love cycling, playing my guitar and rapping Hamilton.'
 	      ),
 	      _react2.default.createElement(
 	        "div",
@@ -21644,6 +21650,21 @@
 	            "book kit"
 	          ),
 	          _react2.default.createElement(
+	            "span",
+	            null,
+	            _react2.default.createElement(
+	              "a",
+	              { href: "https://github.com/turbo-octo-happiness/book-kit/" },
+	              "github"
+	            ),
+	            " | ",
+	            _react2.default.createElement(
+	              "a",
+	              { href: "http://book-kit.herokuapp.com/" },
+	              "demo"
+	            )
+	          ),
+	          _react2.default.createElement(
 	            "div",
 	            { className: "proj-lang" },
 	            _react2.default.createElement(
@@ -21659,7 +21680,7 @@
 	            _react2.default.createElement(
 	              "span",
 	              null,
-	              "bootstrap"
+	              "less"
 	            ),
 	            _react2.default.createElement(
 	              "span",
@@ -21685,7 +21706,13 @@
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, ut modi, quas dicta culpa, perferendis explicabo eos obcaecati, asperiores ab natus accusantium expedita voluptatem. Reprehenderit eaque, unde fugiat nemo dolores.'
+	            'A bookmark manager for bootcamp students that allows users to store and share references to online resources. It is currently being implemented and used by Thinkful\'s fulltime bootcamp. ',
+	            _react2.default.createElement(
+	              "b",
+	              null,
+	              'Responsibilities:'
+	            ),
+	            ' Frontend with React/Redux, UI/UX, some backend in earlier iterations.'
 	          )
 	        )
 	      ),
@@ -21699,6 +21726,21 @@
 	            "h2",
 	            null,
 	            "connect 4 with friends"
+	          ),
+	          _react2.default.createElement(
+	            "span",
+	            null,
+	            _react2.default.createElement(
+	              "a",
+	              { href: "https://github.com/robbykim/connect-four" },
+	              "github"
+	            ),
+	            " | ",
+	            _react2.default.createElement(
+	              "a",
+	              { href: "https://cryptic-beach-71692.herokuapp.com/" },
+	              "demo"
+	            )
 	          ),
 	          _react2.default.createElement(
 	            "div",
@@ -21742,9 +21784,16 @@
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, ut modi, quas dicta culpa, perferendis explicabo eos obcaecati, asperiores ab natus accusantium expedita voluptatem. Reprehenderit eaque, unde fugiat nemo dolores.'
+	            'An online game that allows you to play the classic connect four game with friends from different places. ',
+	            _react2.default.createElement(
+	              "b",
+	              null,
+	              'Responsibilities:'
+	            ),
+	            ' frontend with React/Redux, UI/UX, backend with Node.js and MongoDB.'
 	          )
 	        ),
+	        _react2.default.createElement("a", { href: "" }),
 	        _react2.default.createElement("div", { className: "proj-screenshot right", style: { backgroundImage: 'url(img/connect4.png)' } })
 	      ),
 	      _react2.default.createElement(
@@ -21758,6 +21807,21 @@
 	            "h2",
 	            null,
 	            "onpoint scores"
+	          ),
+	          _react2.default.createElement(
+	            "span",
+	            null,
+	            _react2.default.createElement(
+	              "a",
+	              { href: "https://github.com/robbykim/onpoint-react-native" },
+	              "github"
+	            ),
+	            " | ",
+	            _react2.default.createElement(
+	              "a",
+	              { href: "#" },
+	              "demo"
+	            )
 	          ),
 	          _react2.default.createElement(
 	            "div",
@@ -21801,7 +21865,13 @@
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, ut modi, quas dicta culpa, perferendis explicabo eos obcaecati, asperiores ab natus accusantium expedita voluptatem. Reprehenderit eaque, unde fugiat nemo dolores.'
+	            'A simple iOS application built in React Native that gives you the scores for games in the current week of the NFL. Has the ability to refresh on pull-down. ',
+	            _react2.default.createElement(
+	              "b",
+	              null,
+	              'Responsibilities:'
+	            ),
+	            ' Entirety of the application.'
 	          )
 	        )
 	      ),
@@ -21815,6 +21885,21 @@
 	            "h2",
 	            null,
 	            "korean-x"
+	          ),
+	          _react2.default.createElement(
+	            "span",
+	            null,
+	            _react2.default.createElement(
+	              "a",
+	              { href: "https://github.com/robbykim/korean-x" },
+	              "github"
+	            ),
+	            " | ",
+	            _react2.default.createElement(
+	              "a",
+	              { href: "https://young-anchorage-88242.herokuapp.com/" },
+	              "demo"
+	            )
 	          ),
 	          _react2.default.createElement(
 	            "div",
@@ -21858,7 +21943,13 @@
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, ut modi, quas dicta culpa, perferendis explicabo eos obcaecati, asperiores ab natus accusantium expedita voluptatem. Reprehenderit eaque, unde fugiat nemo dolores.'
+	            'A small application designed to teach users Korean using a spaced-repetition algorithm. ',
+	            _react2.default.createElement(
+	              "b",
+	              null,
+	              'Responsibilities:'
+	            ),
+	            ' Backend with Node.js and MongoDB, Authentication via Passport Google OAuth2'
 	          )
 	        ),
 	        _react2.default.createElement("div", { className: "proj-screenshot right", style: { backgroundImage: 'url(img/korean-x.png)' } })

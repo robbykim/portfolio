@@ -18,6 +18,15 @@ h1 {
   font-weight: 300;
   font-size: 3rem;
 }
+a {
+  color: #052547;
+  transition: color 0.3s ease-in-out;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover {
+  color: #7a99b3;
+}
 .head-section {
   max-width: 80%;
   margin: 0 auto;
@@ -51,15 +60,10 @@ h1 {
   margin-top: 0.5rem;
 }
 .head-section div.intro-head div.intro-social a {
-  color: #052547;
   margin-right: 1rem;
-  transition: color 0.3s ease-in-out;
 }
 .head-section div.intro-head div.intro-social a:last-child {
   margin-right: 0rem;
-}
-.head-section div.intro-head div.intro-social a:hover {
-  color: #7a99b3;
 }
 .head-section div.intro-content {
   display: inline-block;
@@ -97,7 +101,7 @@ h1 {
   margin: 0 auto;
 }
 .work-section .work-container h1 {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 .work-section .work-container .proj-container {
   display: flex;

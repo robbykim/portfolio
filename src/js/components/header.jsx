@@ -22,7 +22,9 @@ function Header() {
       </div>
       <div className="intro-content">
         <p>
-          {"Hi! I'm Robby. I'm a web developer coming from an architectural design background from the University of Michigan. I build full stack applications but specialize on the front end with React, Redux, and Design. I also love cycling, playing my guitar and rapping Hamilton."}
+          {'Hi! I\'m Robby. I\'m a web developer with an architectural design background from the '}
+          <a href="http://www.espn.com/college-football/team/_/id/130" target="_blank">{'University of Michigan'}</a>
+          {'. I build full stack applications but specialize on the front end with React, Redux, and Design. I also love cycling, playing my guitar and rapping Hamilton.'}
         </p>
         <div className="skills-section">
           <div className="skills-lang">
