@@ -21494,7 +21494,6 @@
 	        null,
 	        _react2.default.createElement(_header2.default, null),
 	        _react2.default.createElement(_work2.default, null),
-	        _react2.default.createElement(_inTouch2.default, null),
 	        _react2.default.createElement(_footer2.default, null)
 	      );
 	    }
@@ -21964,7 +21963,7 @@
 /* 175 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 	
 	var _react = __webpack_require__(1);
 	
@@ -21974,17 +21973,24 @@
 	
 	function InTouch() {
 	  return _react2.default.createElement(
-	    'section',
-	    { className: 'intouch-section' },
+	    "section",
+	    { className: "intouch-section" },
 	    _react2.default.createElement(
-	      'h1',
+	      "h2",
 	      null,
-	      'get in touch -'
+	      "get in touch -"
 	    ),
 	    _react2.default.createElement(
-	      'p',
+	      "div",
 	      null,
-	      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab nesciunt temporibus provident. Sed aut quaerat quo nostrum quod nesciunt dicta modi. Eius vitae eligendi iusto, libero nostrum dolorem suscipit, possimus!'
+	      _react2.default.createElement("i", { className: "fa fa-envelope fa-3x", "aria-hidden": "true" }),
+	      _react2.default.createElement("i", { className: "fa fa-linkedin-square fa-3x", "aria-hidden": "true" }),
+	      _react2.default.createElement("i", { className: "fa fa-github fa-3x", "aria-hidden": "true" })
+	    ),
+	    _react2.default.createElement(
+	      "span",
+	      null,
+	      "© robby kim 2016"
 	    )
 	  );
 	}
@@ -22013,14 +22019,26 @@
 	      _react2.default.createElement(
 	        "h2",
 	        null,
-	        "connect with me"
+	        "get in touch"
 	      ),
 	      _react2.default.createElement(
 	        "div",
 	        null,
-	        _react2.default.createElement("i", { className: "fa fa-envelope fa-3x", "aria-hidden": "true" }),
-	        _react2.default.createElement("i", { className: "fa fa-linkedin-square fa-3x", "aria-hidden": "true" }),
-	        _react2.default.createElement("i", { className: "fa fa-github fa-3x", "aria-hidden": "true" })
+	        _react2.default.createElement(
+	          "a",
+	          { href: "mailto:robert.st.kim@gmail.com" },
+	          _react2.default.createElement("i", { className: "fa fa-envelope fa-3x", "aria-hidden": "true" })
+	        ),
+	        _react2.default.createElement(
+	          "a",
+	          { href: "https://www.linkedin.com/in/robby-kim-29670867" },
+	          _react2.default.createElement("i", { className: "fa fa-linkedin-square fa-3x", "aria-hidden": "true" })
+	        ),
+	        _react2.default.createElement(
+	          "a",
+	          { href: "https://github.com/robbykim" },
+	          _react2.default.createElement("i", { className: "fa fa-github fa-3x", "aria-hidden": "true" })
+	        )
 	      ),
 	      _react2.default.createElement(
 	        "span",

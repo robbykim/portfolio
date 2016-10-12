@@ -14,7 +14,7 @@ class PageContainer extends React.Component {
       <div>
         <Header />
         <Work />
-        <InTouch />
+        {/* <InTouch /> */}
         <Footer />
       </div>
     );

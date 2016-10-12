@@ -3,8 +3,13 @@ import React from 'react';
 function InTouch() {
   return (
     <section className="intouch-section">
-      <h1>get in touch -</h1>
-      <p>{'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab nesciunt temporibus provident. Sed aut quaerat quo nostrum quod nesciunt dicta modi. Eius vitae eligendi iusto, libero nostrum dolorem suscipit, possimus!'}</p>
+      <h2>get in touch -</h2>
+      <div>
+        <i className="fa fa-envelope fa-3x" aria-hidden="true" />
+        <i className="fa fa-linkedin-square fa-3x" aria-hidden="true" />
+        <i className="fa fa-github fa-3x" aria-hidden="true" />
+      </div>
+      <span>&copy; robby kim 2016</span>
     </section>
   );
 }
