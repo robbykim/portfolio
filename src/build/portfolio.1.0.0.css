@@ -251,9 +251,6 @@ a:hover {
   }
 }
 @media (max-width: 450px) {
-  .head-section div.intro-head {
-    margin-top: 2rem;
-  }
   .head-section div.intro-content {
     max-width: 100%;
   }
