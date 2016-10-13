@@ -6,18 +6,15 @@ function Work() {
       <div className="work-container">
         <h1>work -</h1>
         <div className="proj-container" id="book-kit">
-          <img className="proj-screenshot left" src="img/bookkit.png" alt="book-kit" />
+          <a href="http://book-kit.herokuapp.com/" className="proj-screenshot left">
+            <img src="img/bookkit.png" alt="book-kit" />
+          </a>
           <div className="proj-detail right">
             <div className="proj-title">
               <h2>book kit</h2>
-              <span className="proj-demo">
-                <a href="http://book-kit.herokuapp.com/">
-                  <i className="fa fa-desktop" aria-hidden="true" />
-                </a>
-                <a href="https://github.com/turbo-octo-happiness/book-kit/">
-                  <i className="fa fa-github fa-lg" aria-hidden="true" />
-                </a>
-              </span>
+              <a href="https://github.com/turbo-octo-happiness/book-kit/">
+                <i className="fa fa-github fa-2x" aria-hidden="true" />
+              </a>
             </div>
             <div className="proj-lang">
               <span>react</span>
@@ -38,14 +35,9 @@ function Work() {
           <div className="proj-detail left">
             <div className="proj-title">
               <h2>connect 4</h2>
-              <span className="proj-demo">
-                <a href="https://cryptic-beach-71692.herokuapp.com/">
-                  <i className="fa fa-desktop" aria-hidden="true" />
-                </a>
-                <a href="https://github.com/robbykim/connect-four">
-                  <i className="fa fa-github fa-lg" aria-hidden="true" />
-                </a>
-              </span>
+              <a href="https://github.com/robbykim/connect-four">
+                <i className="fa fa-github fa-2x" aria-hidden="true" />
+              </a>
             </div>
             <div className="proj-lang">
               <span>react</span>
@@ -61,19 +53,20 @@ function Work() {
               <b>{'Responsibilities:'}</b>{' frontend with React/Redux, UI/UX, backend with Node.js and MongoDB.'}
             </p>
           </div>
-          <a href=""></a>
-          <img className="proj-screenshot right" src="img/connect4.png" alt="connect-four" />
+          <a href="http://book-kit.herokuapp.com/" className="proj-screenshot right">
+            <img src="img/connect4.png" alt="connect-four" />
+          </a>
         </div>
         <div className="proj-container" id="onpoint">
-          <img className="proj-screenshot left" src="img/onpoint.png" alt="on-point" />
+          <a href="http://book-kit.herokuapp.com/" className="proj-screenshot left">
+            <img src="img/onpoint.png" alt="on-point" />
+          </a>
           <div className="proj-detail right">
             <div className="proj-title">
               <h2>onpoint scores</h2>
-              <span className="proj-demo">
-                <a href="https://github.com/robbykim/onpoint-react-native">
-                  <i className="fa fa-github fa-lg" aria-hidden="true" />
-                </a>
-              </span>
+              <a href="https://github.com/robbykim/onpoint-react-native">
+                <i className="fa fa-github fa-2x" aria-hidden="true" />
+              </a>
             </div>
             <div className="proj-lang">
               <span>react native</span>
@@ -94,14 +87,9 @@ function Work() {
           <div className="proj-detail left">
             <div className="proj-title">
               <h2>korean-x</h2>
-              <span className="proj-demo">
-                <a href="https://young-anchorage-88242.herokuapp.com/">
-                  <i className="fa fa-desktop" aria-hidden="true" />
-                </a>
-                <a href="https://github.com/robbykim/korean-x">
-                  <i className="fa fa-github fa-lg" aria-hidden="true" />
-                </a>
-              </span>
+              <a href="https://github.com/robbykim/korean-x">
+                <i className="fa fa-github fa-2x" aria-hidden="true" />
+              </a>
             </div>
             <div className="proj-lang">
               <span>react</span>
@@ -117,7 +105,9 @@ function Work() {
               <b>{'Responsibilities:'}</b>{' Backend with Node.js and MongoDB, Authentication via Passport Google OAuth2'}
             </p>
           </div>
-          <img className="proj-screenshot right" src="img/korean-x.png" alt="korean-x" />
+          <a href="http://book-kit.herokuapp.com/" className="proj-screenshot right">
+            <img src="img/korean-x.png" alt="korean-x" />
+          </a>
         </div>
       </div>
     </section>

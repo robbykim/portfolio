@@ -21635,7 +21635,11 @@
 	      _react2.default.createElement(
 	        "div",
 	        { className: "proj-container", id: "book-kit" },
-	        _react2.default.createElement("img", { className: "proj-screenshot left", src: "img/bookkit.png", alt: "book-kit" }),
+	        _react2.default.createElement(
+	          "a",
+	          { href: "http://book-kit.herokuapp.com/", className: "proj-screenshot left" },
+	          _react2.default.createElement("img", { src: "img/bookkit.png", alt: "book-kit" })
+	        ),
 	        _react2.default.createElement(
 	          "div",
 	          { className: "proj-detail right" },
@@ -21648,18 +21652,9 @@
 	              "book kit"
 	            ),
 	            _react2.default.createElement(
-	              "span",
-	              { className: "proj-demo" },
-	              _react2.default.createElement(
-	                "a",
-	                { href: "http://book-kit.herokuapp.com/" },
-	                _react2.default.createElement("i", { className: "fa fa-desktop", "aria-hidden": "true" })
-	              ),
-	              _react2.default.createElement(
-	                "a",
-	                { href: "https://github.com/turbo-octo-happiness/book-kit/" },
-	                _react2.default.createElement("i", { className: "fa fa-github fa-lg", "aria-hidden": "true" })
-	              )
+	              "a",
+	              { href: "https://github.com/turbo-octo-happiness/book-kit/" },
+	              _react2.default.createElement("i", { className: "fa fa-github fa-2x", "aria-hidden": "true" })
 	            )
 	          ),
 	          _react2.default.createElement(
@@ -21729,18 +21724,9 @@
 	              "connect 4"
 	            ),
 	            _react2.default.createElement(
-	              "span",
-	              { className: "proj-demo" },
-	              _react2.default.createElement(
-	                "a",
-	                { href: "https://cryptic-beach-71692.herokuapp.com/" },
-	                _react2.default.createElement("i", { className: "fa fa-desktop", "aria-hidden": "true" })
-	              ),
-	              _react2.default.createElement(
-	                "a",
-	                { href: "https://github.com/robbykim/connect-four" },
-	                _react2.default.createElement("i", { className: "fa fa-github fa-lg", "aria-hidden": "true" })
-	              )
+	              "a",
+	              { href: "https://github.com/robbykim/connect-four" },
+	              _react2.default.createElement("i", { className: "fa fa-github fa-2x", "aria-hidden": "true" })
 	            )
 	          ),
 	          _react2.default.createElement(
@@ -21794,13 +21780,20 @@
 	            ' frontend with React/Redux, UI/UX, backend with Node.js and MongoDB.'
 	          )
 	        ),
-	        _react2.default.createElement("a", { href: "" }),
-	        _react2.default.createElement("img", { className: "proj-screenshot right", src: "img/connect4.png", alt: "connect-four" })
+	        _react2.default.createElement(
+	          "a",
+	          { href: "http://book-kit.herokuapp.com/", className: "proj-screenshot right" },
+	          _react2.default.createElement("img", { src: "img/connect4.png", alt: "connect-four" })
+	        )
 	      ),
 	      _react2.default.createElement(
 	        "div",
 	        { className: "proj-container", id: "onpoint" },
-	        _react2.default.createElement("img", { className: "proj-screenshot left", src: "img/onpoint.png", alt: "on-point" }),
+	        _react2.default.createElement(
+	          "a",
+	          { href: "http://book-kit.herokuapp.com/", className: "proj-screenshot left" },
+	          _react2.default.createElement("img", { src: "img/onpoint.png", alt: "on-point" })
+	        ),
 	        _react2.default.createElement(
 	          "div",
 	          { className: "proj-detail right" },
@@ -21813,13 +21806,9 @@
 	              "onpoint scores"
 	            ),
 	            _react2.default.createElement(
-	              "span",
-	              { className: "proj-demo" },
-	              _react2.default.createElement(
-	                "a",
-	                { href: "https://github.com/robbykim/onpoint-react-native" },
-	                _react2.default.createElement("i", { className: "fa fa-github fa-lg", "aria-hidden": "true" })
-	              )
+	              "a",
+	              { href: "https://github.com/robbykim/onpoint-react-native" },
+	              _react2.default.createElement("i", { className: "fa fa-github fa-2x", "aria-hidden": "true" })
 	            )
 	          ),
 	          _react2.default.createElement(
@@ -21889,18 +21878,9 @@
 	              "korean-x"
 	            ),
 	            _react2.default.createElement(
-	              "span",
-	              { className: "proj-demo" },
-	              _react2.default.createElement(
-	                "a",
-	                { href: "https://young-anchorage-88242.herokuapp.com/" },
-	                _react2.default.createElement("i", { className: "fa fa-desktop", "aria-hidden": "true" })
-	              ),
-	              _react2.default.createElement(
-	                "a",
-	                { href: "https://github.com/robbykim/korean-x" },
-	                _react2.default.createElement("i", { className: "fa fa-github fa-lg", "aria-hidden": "true" })
-	              )
+	              "a",
+	              { href: "https://github.com/robbykim/korean-x" },
+	              _react2.default.createElement("i", { className: "fa fa-github fa-2x", "aria-hidden": "true" })
 	            )
 	          ),
 	          _react2.default.createElement(
@@ -21954,7 +21934,11 @@
 	            ' Backend with Node.js and MongoDB, Authentication via Passport Google OAuth2'
 	          )
 	        ),
-	        _react2.default.createElement("img", { className: "proj-screenshot right", src: "img/korean-x.png", alt: "korean-x" })
+	        _react2.default.createElement(
+	          "a",
+	          { href: "http://book-kit.herokuapp.com/", className: "proj-screenshot right" },
+	          _react2.default.createElement("img", { src: "img/korean-x.png", alt: "korean-x" })
+	        )
 	      )
 	    )
 	  );

@@ -123,7 +123,7 @@ a:hover {
 .work-section .work-container .proj-container h2 {
   font-family: 'Work Sans', sans-serif;
   font-weight: 300;
-  font-size: 1.7rem;
+  font-size: 2rem;
   margin-bottom: -0.6rem;
   margin-right: 1.5rem;
   display: inline-block;
@@ -133,19 +133,6 @@ a:hover {
 }
 .work-section .work-container .proj-container .right {
   margin-left: 5%;
-}
-.work-section .work-container .proj-container .proj-demo {
-  vertical-align: 0.1rem;
-}
-.work-section .work-container .proj-container .proj-demo a {
-  margin-right: 0.4rem;
-}
-.work-section .work-container .proj-container .proj-demo a:last-child {
-  margin-right: 0;
-}
-.work-section .work-container .proj-container .proj-demo a .fa-desktop {
-  font-size: 1rem;
-  vertical-align: -1px;
 }
 .work-section .work-container .proj-container .proj-lang {
   display: flex;
@@ -158,6 +145,13 @@ a:hover {
 .work-section .work-container .proj-container .proj-screenshot {
   max-width: 45%;
   width: 100%;
+}
+.work-section .work-container .proj-container .proj-screenshot img {
+  width: 100%;
+  transition: opacity 0.3s ease-in-out;
+}
+.work-section .work-container .proj-container .proj-screenshot:hover img {
+  opacity: 0.7;
 }
 .footer-section {
   padding: 1.2rem 0;
