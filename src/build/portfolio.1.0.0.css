@@ -91,6 +91,9 @@ a:hover {
   display: inline-block;
   margin-right: 1rem;
 }
+.head-section div.intro-content div.skills-section img:last-child {
+  margin-right: 0;
+}
 .work-section {
   color: #083D77;
   background-color: #F4D35E;
@@ -206,6 +209,10 @@ a:hover {
   }
   .head-section div.intro-content p {
     margin-bottom: 3rem;
+  }
+  .head-section div.intro-content div.skills-section .skills-lang {
+    margin-right: 0;
+    display: block;
   }
   .work-section {
     padding: 3rem 0;
