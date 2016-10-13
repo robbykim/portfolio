@@ -6,7 +6,7 @@ function Work() {
       <div className="work-container">
         <h1>work -</h1>
         <div className="proj-container" id="book-kit">
-          <div className="proj-screenshot left" style={{ backgroundImage: 'url(img/bookkit.png)'}} />
+          <img className="proj-screenshot left" src="img/bookkit.png" alt="book-kit" />
           <div className="proj-detail right">
             <h2>book kit</h2>
             <span className="proj-demo">
@@ -58,10 +58,10 @@ function Work() {
             </p>
           </div>
           <a href=""></a>
-          <div className="proj-screenshot right" style={{ backgroundImage: 'url(img/connect4.png)' }} />
+          <img className="proj-screenshot right" src="img/connect4.png" alt="connect-four" />
         </div>
         <div className="proj-container" id="onpoint">
-          <div className="proj-screenshot left" style={{ backgroundImage: 'url(img/onpoint.png)' }} />
+          <img className="proj-screenshot left" src="img/onpoint.png" alt="on-point" />
           <div className="proj-detail right">
             <h2>onpoint scores</h2>
             <span className="proj-demo">
@@ -109,7 +109,7 @@ function Work() {
               <b>{'Responsibilities:'}</b>{' Backend with Node.js and MongoDB, Authentication via Passport Google OAuth2'}
             </p>
           </div>
-          <div className="proj-screenshot right" style={{ backgroundImage: 'url(img/korean-x.png)'}}  />
+          <img className="proj-screenshot right" src="img/korean-x.png" alt="korean-x" />
         </div>
       </div>
     </section>

@@ -70,7 +70,8 @@ a {
   div.intro-head {
     display: inline-block;
     text-align: center;
-    width: 38%;
+    width: 100%;
+    max-width: 38%;
     margin-right: 2%;
 
     h1 {
@@ -108,7 +109,8 @@ a {
 
   div.intro-content {
     display: inline-block;
-    width: 60%;
+    width: 100%;
+    max-width: 60%;
 
     p {
       margin-bottom: 1rem;
@@ -204,17 +206,9 @@ a {
       }
 
       .proj-screenshot {
-        padding: 15% 21.5%;
-        background-size: cover;
+        max-width: 43%;
       }
     }
-  }
-}
-
-
-#korean-x {
-  .proj-screenshot {
-    background-position: center;
   }
 }
 
@@ -294,11 +288,75 @@ a {
 
   .work-section {
     padding: 3rem 0;
-    
+
     .work-container {
+      h1 {
+        text-align: center;
+      }
+
       .proj-container {
+        flex-direction: column;
+        max-width: 80%;
+        margin: 0 auto;
+
+        .proj-screenshot {
+          max-width: 100%;
+          order: 2;
+        }
+
         .left {
           margin-right: 0;
+          margin-bottom: 2rem;
+          order: 2;
+        }
+
+        .right {
+          margin-bottom: 2rem;
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .head-section {
+    div.intro-content {
+      max-width: 90%;
+    }
+  }
+
+  .work-section {
+    .work-container {
+      .proj-container {
+        max-width: 90%;
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .head-section {
+    div.intro-head {
+      margin-top: 2rem;
+    }
+    
+    div.intro-content {
+      max-width: 100%;
+
+      p {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  .work-section {
+    .work-container {
+      .proj-container {
+        max-width: 100%;
+
+        h2 {
+          margin-right: 1rem;
         }
       }
     }

@@ -37,7 +37,8 @@ a:hover {
 .head-section div.intro-head {
   display: inline-block;
   text-align: center;
-  width: 38%;
+  width: 100%;
+  max-width: 38%;
   margin-right: 2%;
 }
 .head-section div.intro-head h1 {
@@ -67,7 +68,8 @@ a:hover {
 }
 .head-section div.intro-content {
   display: inline-block;
-  width: 60%;
+  width: 100%;
+  max-width: 60%;
 }
 .head-section div.intro-content p {
   margin-bottom: 1rem;
@@ -144,11 +146,7 @@ a:hover {
   color: #ad8a0c;
 }
 .work-section .work-container .proj-container .proj-screenshot {
-  padding: 15% 21.5%;
-  background-size: cover;
-}
-#korean-x .proj-screenshot {
-  background-position: center;
+  max-width: 43%;
 }
 .footer-section {
   padding: 1.2rem 0;
@@ -207,8 +205,51 @@ a:hover {
   .work-section {
     padding: 3rem 0;
   }
+  .work-section .work-container h1 {
+    text-align: center;
+  }
+  .work-section .work-container .proj-container {
+    flex-direction: column;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .work-section .work-container .proj-container .proj-screenshot {
+    max-width: 100%;
+    order: 2;
+  }
   .work-section .work-container .proj-container .left {
     margin-right: 0;
+    margin-bottom: 2rem;
+    order: 2;
+  }
+  .work-section .work-container .proj-container .right {
+    margin-bottom: 2rem;
+    margin-left: 0;
+  }
+}
+@media (max-width: 550px) {
+  .head-section div.intro-content {
+    max-width: 90%;
+  }
+  .work-section .work-container .proj-container {
+    max-width: 90%;
+  }
+}
+@media (max-width: 450px) {
+  .head-section div.intro-head {
+    margin-top: 2rem;
+  }
+  .head-section div.intro-content {
+    max-width: 100%;
+  }
+  .head-section div.intro-content p {
+    margin-bottom: 1rem;
+  }
+  .work-section .work-container .proj-container {
+    max-width: 100%;
+  }
+  .work-section .work-container .proj-container h2 {
+    margin-right: 1rem;
   }
 }
 /*# sourceMappingURL=portfolio.1.0.0.css.map */

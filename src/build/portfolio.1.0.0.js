@@ -21639,7 +21639,7 @@
 	      _react2.default.createElement(
 	        "div",
 	        { className: "proj-container", id: "book-kit" },
-	        _react2.default.createElement("div", { className: "proj-screenshot left", style: { backgroundImage: 'url(img/bookkit.png)' } }),
+	        _react2.default.createElement("img", { className: "proj-screenshot left", src: "img/bookkit.png", alt: "book-kit" }),
 	        _react2.default.createElement(
 	          "div",
 	          { className: "proj-detail right" },
@@ -21791,12 +21791,12 @@
 	          )
 	        ),
 	        _react2.default.createElement("a", { href: "" }),
-	        _react2.default.createElement("div", { className: "proj-screenshot right", style: { backgroundImage: 'url(img/connect4.png)' } })
+	        _react2.default.createElement("img", { className: "proj-screenshot right", src: "img/connect4.png", alt: "connect-four" })
 	      ),
 	      _react2.default.createElement(
 	        "div",
 	        { className: "proj-container", id: "onpoint" },
-	        _react2.default.createElement("div", { className: "proj-screenshot left", style: { backgroundImage: 'url(img/onpoint.png)' } }),
+	        _react2.default.createElement("img", { className: "proj-screenshot left", src: "img/onpoint.png", alt: "on-point" }),
 	        _react2.default.createElement(
 	          "div",
 	          { className: "proj-detail right" },
@@ -21942,7 +21942,7 @@
 	            ' Backend with Node.js and MongoDB, Authentication via Passport Google OAuth2'
 	          )
 	        ),
-	        _react2.default.createElement("div", { className: "proj-screenshot right", style: { backgroundImage: 'url(img/korean-x.png)' } })
+	        _react2.default.createElement("img", { className: "proj-screenshot right", src: "img/korean-x.png", alt: "korean-x" })
 	      )
 	    )
 	  );
