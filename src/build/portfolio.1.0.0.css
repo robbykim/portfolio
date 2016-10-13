@@ -19,13 +19,13 @@ h1 {
   font-size: 3rem;
 }
 a {
-  color: #052547;
+  color: #f2dc82;
   transition: color 0.3s ease-in-out;
   font-weight: bold;
   text-decoration: none;
 }
 a:hover {
-  color: #7a99b3;
+  color: #052547;
 }
 .head-section {
   max-width: 1024px;
@@ -52,9 +52,6 @@ a:hover {
 }
 .head-section div.intro-head h3 {
   font-weight: 400;
-}
-.head-section div.intro-head h4 {
-  color: #052547;
 }
 .head-section div.intro-head div.intro-social {
   width: 11rem;
@@ -98,6 +95,13 @@ a:hover {
   color: #083D77;
   background-color: #F4D35E;
   padding: 6rem 0;
+}
+.work-section a {
+  color: #052547;
+  transition: color 0.3s ease-in-out;
+}
+.work-section a:hover {
+  color: #7a99b3;
 }
 .work-section .work-container {
   width: 100%;
