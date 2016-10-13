@@ -6,13 +6,13 @@ function Work() {
       <div className="work-container">
         <h1>work -</h1>
         <div className="proj-container" id="book-kit">
-          <a href="http://book-kit.herokuapp.com/" className="proj-screenshot left">
+          <a href="http://book-kit.herokuapp.com/" className="proj-screenshot left" target="_blank">
             <img src="img/bookkit.png" alt="book-kit" />
           </a>
           <div className="proj-detail right">
             <div className="proj-title">
               <h2>book kit</h2>
-              <a href="https://github.com/turbo-octo-happiness/book-kit/">
+              <a href="https://github.com/turbo-octo-happiness/book-kit/" target="_blank">
                 <i className="fa fa-github fa-2x" aria-hidden="true" />
               </a>
             </div>
@@ -35,7 +35,7 @@ function Work() {
           <div className="proj-detail left">
             <div className="proj-title">
               <h2>connect 4</h2>
-              <a href="https://github.com/robbykim/connect-four">
+              <a href="https://github.com/robbykim/connect-four" target="_blank">
                 <i className="fa fa-github fa-2x" aria-hidden="true" />
               </a>
             </div>
@@ -53,18 +53,18 @@ function Work() {
               <b>{'Responsibilities:'}</b>{' frontend with React/Redux, UI/UX, backend with Node.js and MongoDB.'}
             </p>
           </div>
-          <a href="http://book-kit.herokuapp.com/" className="proj-screenshot right">
+          <a href="http://book-kit.herokuapp.com/" className="proj-screenshot right" target="_blank">
             <img src="img/connect4.png" alt="connect-four" />
           </a>
         </div>
         <div className="proj-container" id="onpoint">
-          <a href="http://book-kit.herokuapp.com/" className="proj-screenshot left">
+          <a href="http://book-kit.herokuapp.com/" className="proj-screenshot left" target="_blank">
             <img src="img/onpoint.png" alt="on-point" />
           </a>
           <div className="proj-detail right">
             <div className="proj-title">
               <h2>onpoint scores</h2>
-              <a href="https://github.com/robbykim/onpoint-react-native">
+              <a href="https://github.com/robbykim/onpoint-react-native" target="_blank">
                 <i className="fa fa-github fa-2x" aria-hidden="true" />
               </a>
             </div>
@@ -87,7 +87,7 @@ function Work() {
           <div className="proj-detail left">
             <div className="proj-title">
               <h2>korean-x</h2>
-              <a href="https://github.com/robbykim/korean-x">
+              <a href="https://github.com/robbykim/korean-x" target="_blank">
                 <i className="fa fa-github fa-2x" aria-hidden="true" />
               </a>
             </div>
@@ -105,7 +105,7 @@ function Work() {
               <b>{'Responsibilities:'}</b>{' Backend with Node.js and MongoDB, Authentication via Passport Google OAuth2'}
             </p>
           </div>
-          <a href="http://book-kit.herokuapp.com/" className="proj-screenshot right">
+          <a href="http://book-kit.herokuapp.com/" className="proj-screenshot right" target="_blank">
             <img src="img/korean-x.png" alt="korean-x" />
           </a>
         </div>

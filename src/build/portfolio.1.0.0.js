@@ -21637,7 +21637,7 @@
 	        { className: "proj-container", id: "book-kit" },
 	        _react2.default.createElement(
 	          "a",
-	          { href: "http://book-kit.herokuapp.com/", className: "proj-screenshot left" },
+	          { href: "http://book-kit.herokuapp.com/", className: "proj-screenshot left", target: "_blank" },
 	          _react2.default.createElement("img", { src: "img/bookkit.png", alt: "book-kit" })
 	        ),
 	        _react2.default.createElement(
@@ -21653,7 +21653,7 @@
 	            ),
 	            _react2.default.createElement(
 	              "a",
-	              { href: "https://github.com/turbo-octo-happiness/book-kit/" },
+	              { href: "https://github.com/turbo-octo-happiness/book-kit/", target: "_blank" },
 	              _react2.default.createElement("i", { className: "fa fa-github fa-2x", "aria-hidden": "true" })
 	            )
 	          ),
@@ -21725,7 +21725,7 @@
 	            ),
 	            _react2.default.createElement(
 	              "a",
-	              { href: "https://github.com/robbykim/connect-four" },
+	              { href: "https://github.com/robbykim/connect-four", target: "_blank" },
 	              _react2.default.createElement("i", { className: "fa fa-github fa-2x", "aria-hidden": "true" })
 	            )
 	          ),
@@ -21782,7 +21782,7 @@
 	        ),
 	        _react2.default.createElement(
 	          "a",
-	          { href: "http://book-kit.herokuapp.com/", className: "proj-screenshot right" },
+	          { href: "http://book-kit.herokuapp.com/", className: "proj-screenshot right", target: "_blank" },
 	          _react2.default.createElement("img", { src: "img/connect4.png", alt: "connect-four" })
 	        )
 	      ),
@@ -21791,7 +21791,7 @@
 	        { className: "proj-container", id: "onpoint" },
 	        _react2.default.createElement(
 	          "a",
-	          { href: "http://book-kit.herokuapp.com/", className: "proj-screenshot left" },
+	          { href: "http://book-kit.herokuapp.com/", className: "proj-screenshot left", target: "_blank" },
 	          _react2.default.createElement("img", { src: "img/onpoint.png", alt: "on-point" })
 	        ),
 	        _react2.default.createElement(
@@ -21807,7 +21807,7 @@
 	            ),
 	            _react2.default.createElement(
 	              "a",
-	              { href: "https://github.com/robbykim/onpoint-react-native" },
+	              { href: "https://github.com/robbykim/onpoint-react-native", target: "_blank" },
 	              _react2.default.createElement("i", { className: "fa fa-github fa-2x", "aria-hidden": "true" })
 	            )
 	          ),
@@ -21879,7 +21879,7 @@
 	            ),
 	            _react2.default.createElement(
 	              "a",
-	              { href: "https://github.com/robbykim/korean-x" },
+	              { href: "https://github.com/robbykim/korean-x", target: "_blank" },
 	              _react2.default.createElement("i", { className: "fa fa-github fa-2x", "aria-hidden": "true" })
 	            )
 	          ),
@@ -21936,7 +21936,7 @@
 	        ),
 	        _react2.default.createElement(
 	          "a",
-	          { href: "http://book-kit.herokuapp.com/", className: "proj-screenshot right" },
+	          { href: "http://book-kit.herokuapp.com/", className: "proj-screenshot right", target: "_blank" },
 	          _react2.default.createElement("img", { src: "img/korean-x.png", alt: "korean-x" })
 	        )
 	      )
