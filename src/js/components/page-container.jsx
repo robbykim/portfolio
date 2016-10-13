@@ -1,7 +1,6 @@
 import React, { PropTypes } from 'react';
 import Header from './header';
 import Work from './work';
-import InTouch from './in-touch';
 import Footer from './footer';
 
 class PageContainer extends React.Component {
@@ -14,7 +13,6 @@ class PageContainer extends React.Component {
       <div>
         <Header />
         <Work />
-        {/* <InTouch /> */}
         <Footer />
       </div>
     );

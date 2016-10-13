@@ -246,6 +246,9 @@ a:hover {
   .work-section .work-container .proj-container {
     max-width: 90%;
   }
+  .work-section .work-container .proj-container .proj-title {
+    text-align: center;
+  }
 }
 @media (max-width: 450px) {
   .head-section div.intro-head {

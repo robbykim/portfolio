@@ -8,15 +8,17 @@ function Work() {
         <div className="proj-container" id="book-kit">
           <img className="proj-screenshot left" src="img/bookkit.png" alt="book-kit" />
           <div className="proj-detail right">
-            <h2>book kit</h2>
-            <span className="proj-demo">
-              <a href="http://book-kit.herokuapp.com/">
-                <i className="fa fa-desktop" aria-hidden="true" />
-              </a>
-              <a href="https://github.com/turbo-octo-happiness/book-kit/">
-                <i className="fa fa-github fa-lg" aria-hidden="true" />
-              </a>
-            </span>
+            <div className="proj-title">
+              <h2>book kit</h2>
+              <span className="proj-demo">
+                <a href="http://book-kit.herokuapp.com/">
+                  <i className="fa fa-desktop" aria-hidden="true" />
+                </a>
+                <a href="https://github.com/turbo-octo-happiness/book-kit/">
+                  <i className="fa fa-github fa-lg" aria-hidden="true" />
+                </a>
+              </span>
+            </div>
             <div className="proj-lang">
               <span>react</span>
               <span>-</span>
@@ -34,15 +36,17 @@ function Work() {
         </div>
         <div className="proj-container" id="connect-four">
           <div className="proj-detail left">
-            <h2>connect 4 with friends</h2>
-            <span className="proj-demo">
-              <a href="https://cryptic-beach-71692.herokuapp.com/">
-                <i className="fa fa-desktop" aria-hidden="true" />
-              </a>
-              <a href="https://github.com/robbykim/connect-four">
-                <i className="fa fa-github fa-lg" aria-hidden="true" />
-              </a>
-            </span>
+            <div className="proj-title">
+              <h2>connect 4</h2>
+              <span className="proj-demo">
+                <a href="https://cryptic-beach-71692.herokuapp.com/">
+                  <i className="fa fa-desktop" aria-hidden="true" />
+                </a>
+                <a href="https://github.com/robbykim/connect-four">
+                  <i className="fa fa-github fa-lg" aria-hidden="true" />
+                </a>
+              </span>
+            </div>
             <div className="proj-lang">
               <span>react</span>
               <span>-</span>
@@ -63,12 +67,14 @@ function Work() {
         <div className="proj-container" id="onpoint">
           <img className="proj-screenshot left" src="img/onpoint.png" alt="on-point" />
           <div className="proj-detail right">
-            <h2>onpoint scores</h2>
-            <span className="proj-demo">
-              <a href="https://github.com/robbykim/onpoint-react-native">
-                <i className="fa fa-github fa-lg" aria-hidden="true" />
-              </a>
-            </span>
+            <div className="proj-title">
+              <h2>onpoint scores</h2>
+              <span className="proj-demo">
+                <a href="https://github.com/robbykim/onpoint-react-native">
+                  <i className="fa fa-github fa-lg" aria-hidden="true" />
+                </a>
+              </span>
+            </div>
             <div className="proj-lang">
               <span>react native</span>
               <span>-</span>
@@ -86,15 +92,17 @@ function Work() {
         </div>
         <div className="proj-container" id="korean-x">
           <div className="proj-detail left">
-            <h2>korean-x</h2>
-            <span className="proj-demo">
-              <a href="https://young-anchorage-88242.herokuapp.com/">
-                <i className="fa fa-desktop" aria-hidden="true" />
-              </a>
-              <a href="https://github.com/robbykim/korean-x">
-                <i className="fa fa-github fa-lg" aria-hidden="true" />
-              </a>
-            </span>
+            <div className="proj-title">
+              <h2>korean-x</h2>
+              <span className="proj-demo">
+                <a href="https://young-anchorage-88242.herokuapp.com/">
+                  <i className="fa fa-desktop" aria-hidden="true" />
+                </a>
+                <a href="https://github.com/robbykim/korean-x">
+                  <i className="fa fa-github fa-lg" aria-hidden="true" />
+                </a>
+              </span>
+            </div>
             <div className="proj-lang">
               <span>react</span>
               <span>-</span>

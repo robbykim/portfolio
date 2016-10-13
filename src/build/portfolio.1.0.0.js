@@ -21456,10 +21456,6 @@
 	
 	var _work2 = _interopRequireDefault(_work);
 	
-	var _inTouch = __webpack_require__(175);
-	
-	var _inTouch2 = _interopRequireDefault(_inTouch);
-	
 	var _footer = __webpack_require__(176);
 	
 	var _footer2 = _interopRequireDefault(_footer);
@@ -21644,22 +21640,26 @@
 	          "div",
 	          { className: "proj-detail right" },
 	          _react2.default.createElement(
-	            "h2",
-	            null,
-	            "book kit"
-	          ),
-	          _react2.default.createElement(
-	            "span",
-	            { className: "proj-demo" },
+	            "div",
+	            { className: "proj-title" },
 	            _react2.default.createElement(
-	              "a",
-	              { href: "http://book-kit.herokuapp.com/" },
-	              _react2.default.createElement("i", { className: "fa fa-desktop", "aria-hidden": "true" })
+	              "h2",
+	              null,
+	              "book kit"
 	            ),
 	            _react2.default.createElement(
-	              "a",
-	              { href: "https://github.com/turbo-octo-happiness/book-kit/" },
-	              _react2.default.createElement("i", { className: "fa fa-github fa-lg", "aria-hidden": "true" })
+	              "span",
+	              { className: "proj-demo" },
+	              _react2.default.createElement(
+	                "a",
+	                { href: "http://book-kit.herokuapp.com/" },
+	                _react2.default.createElement("i", { className: "fa fa-desktop", "aria-hidden": "true" })
+	              ),
+	              _react2.default.createElement(
+	                "a",
+	                { href: "https://github.com/turbo-octo-happiness/book-kit/" },
+	                _react2.default.createElement("i", { className: "fa fa-github fa-lg", "aria-hidden": "true" })
+	              )
 	            )
 	          ),
 	          _react2.default.createElement(
@@ -21721,22 +21721,26 @@
 	          "div",
 	          { className: "proj-detail left" },
 	          _react2.default.createElement(
-	            "h2",
-	            null,
-	            "connect 4 with friends"
-	          ),
-	          _react2.default.createElement(
-	            "span",
-	            { className: "proj-demo" },
+	            "div",
+	            { className: "proj-title" },
 	            _react2.default.createElement(
-	              "a",
-	              { href: "https://cryptic-beach-71692.herokuapp.com/" },
-	              _react2.default.createElement("i", { className: "fa fa-desktop", "aria-hidden": "true" })
+	              "h2",
+	              null,
+	              "connect 4"
 	            ),
 	            _react2.default.createElement(
-	              "a",
-	              { href: "https://github.com/robbykim/connect-four" },
-	              _react2.default.createElement("i", { className: "fa fa-github fa-lg", "aria-hidden": "true" })
+	              "span",
+	              { className: "proj-demo" },
+	              _react2.default.createElement(
+	                "a",
+	                { href: "https://cryptic-beach-71692.herokuapp.com/" },
+	                _react2.default.createElement("i", { className: "fa fa-desktop", "aria-hidden": "true" })
+	              ),
+	              _react2.default.createElement(
+	                "a",
+	                { href: "https://github.com/robbykim/connect-four" },
+	                _react2.default.createElement("i", { className: "fa fa-github fa-lg", "aria-hidden": "true" })
+	              )
 	            )
 	          ),
 	          _react2.default.createElement(
@@ -21801,17 +21805,21 @@
 	          "div",
 	          { className: "proj-detail right" },
 	          _react2.default.createElement(
-	            "h2",
-	            null,
-	            "onpoint scores"
-	          ),
-	          _react2.default.createElement(
-	            "span",
-	            { className: "proj-demo" },
+	            "div",
+	            { className: "proj-title" },
 	            _react2.default.createElement(
-	              "a",
-	              { href: "https://github.com/robbykim/onpoint-react-native" },
-	              _react2.default.createElement("i", { className: "fa fa-github fa-lg", "aria-hidden": "true" })
+	              "h2",
+	              null,
+	              "onpoint scores"
+	            ),
+	            _react2.default.createElement(
+	              "span",
+	              { className: "proj-demo" },
+	              _react2.default.createElement(
+	                "a",
+	                { href: "https://github.com/robbykim/onpoint-react-native" },
+	                _react2.default.createElement("i", { className: "fa fa-github fa-lg", "aria-hidden": "true" })
+	              )
 	            )
 	          ),
 	          _react2.default.createElement(
@@ -21873,22 +21881,26 @@
 	          "div",
 	          { className: "proj-detail left" },
 	          _react2.default.createElement(
-	            "h2",
-	            null,
-	            "korean-x"
-	          ),
-	          _react2.default.createElement(
-	            "span",
-	            { className: "proj-demo" },
+	            "div",
+	            { className: "proj-title" },
 	            _react2.default.createElement(
-	              "a",
-	              { href: "https://young-anchorage-88242.herokuapp.com/" },
-	              _react2.default.createElement("i", { className: "fa fa-desktop", "aria-hidden": "true" })
+	              "h2",
+	              null,
+	              "korean-x"
 	            ),
 	            _react2.default.createElement(
-	              "a",
-	              { href: "https://github.com/robbykim/korean-x" },
-	              _react2.default.createElement("i", { className: "fa fa-github fa-lg", "aria-hidden": "true" })
+	              "span",
+	              { className: "proj-demo" },
+	              _react2.default.createElement(
+	                "a",
+	                { href: "https://young-anchorage-88242.herokuapp.com/" },
+	                _react2.default.createElement("i", { className: "fa fa-desktop", "aria-hidden": "true" })
+	              ),
+	              _react2.default.createElement(
+	                "a",
+	                { href: "https://github.com/robbykim/korean-x" },
+	                _react2.default.createElement("i", { className: "fa fa-github fa-lg", "aria-hidden": "true" })
+	              )
 	            )
 	          ),
 	          _react2.default.createElement(
@@ -21951,44 +21963,7 @@
 	module.exports = Work;
 
 /***/ },
-/* 175 */
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
-	
-	var _react = __webpack_require__(1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	function InTouch() {
-	  return _react2.default.createElement(
-	    "section",
-	    { className: "intouch-section" },
-	    _react2.default.createElement(
-	      "h2",
-	      null,
-	      "get in touch -"
-	    ),
-	    _react2.default.createElement(
-	      "div",
-	      null,
-	      _react2.default.createElement("i", { className: "fa fa-envelope fa-3x", "aria-hidden": "true" }),
-	      _react2.default.createElement("i", { className: "fa fa-linkedin-square fa-3x", "aria-hidden": "true" }),
-	      _react2.default.createElement("i", { className: "fa fa-github fa-3x", "aria-hidden": "true" })
-	    ),
-	    _react2.default.createElement(
-	      "span",
-	      null,
-	      "© robby kim 2016"
-	    )
-	  );
-	}
-	
-	module.exports = InTouch;
-
-/***/ },
+/* 175 */,
 /* 176 */
 /***/ function(module, exports, __webpack_require__) {
 
