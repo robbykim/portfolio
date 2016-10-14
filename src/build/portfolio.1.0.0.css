@@ -222,21 +222,22 @@ a:hover {
     max-width: 80%;
     margin: 0 auto;
   }
-  .work-section .work-container .proj-container .proj-screenshot {
-    max-width: 100%;
-    order: 2;
-  }
   .work-section .work-container .proj-container .proj-detail {
     max-width: 100%;
+    order: 2;
+    margin-bottom: 3rem;
+  }
+  .work-section .work-container .proj-container .proj-detail .proj-title {
+    margin-bottom: 0.5rem;
   }
   .work-section .work-container .proj-container .left {
     margin-right: 0;
-    margin-bottom: 2rem;
-    order: 2;
   }
   .work-section .work-container .proj-container .right {
-    margin-bottom: 2rem;
     margin-left: 0;
+  }
+  .work-section .work-container .proj-container .proj-screenshot {
+    max-width: 100%;
   }
 }
 @media (max-width: 550px) {
