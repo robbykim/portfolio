@@ -21456,7 +21456,7 @@
 	
 	var _work2 = _interopRequireDefault(_work);
 	
-	var _footer = __webpack_require__(176);
+	var _footer = __webpack_require__(175);
 	
 	var _footer2 = _interopRequireDefault(_footer);
 	
@@ -21782,7 +21782,7 @@
 	        ),
 	        _react2.default.createElement(
 	          "a",
-	          { href: "http://book-kit.herokuapp.com/", className: "proj-screenshot right", target: "_blank" },
+	          { href: "https://cryptic-beach-71692.herokuapp.com/", className: "proj-screenshot right", target: "_blank" },
 	          _react2.default.createElement("img", { src: "img/connect4.png", alt: "connect-four" })
 	        )
 	      ),
@@ -21791,7 +21791,7 @@
 	        { className: "proj-container", id: "onpoint" },
 	        _react2.default.createElement(
 	          "a",
-	          { href: "http://book-kit.herokuapp.com/", className: "proj-screenshot left", target: "_blank" },
+	          { href: "#", className: "proj-screenshot left", target: "_blank" },
 	          _react2.default.createElement("img", { src: "img/onpoint.png", alt: "on-point" })
 	        ),
 	        _react2.default.createElement(
@@ -21936,7 +21936,7 @@
 	        ),
 	        _react2.default.createElement(
 	          "a",
-	          { href: "http://book-kit.herokuapp.com/", className: "proj-screenshot right", target: "_blank" },
+	          { href: "https://young-anchorage-88242.herokuapp.com/", className: "proj-screenshot right", target: "_blank" },
 	          _react2.default.createElement("img", { src: "img/korean-x.png", alt: "korean-x" })
 	        )
 	      )
@@ -21947,8 +21947,7 @@
 	module.exports = Work;
 
 /***/ },
-/* 175 */,
-/* 176 */
+/* 175 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
