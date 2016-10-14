@@ -53,12 +53,12 @@ function Work() {
               <b>{'Responsibilities:'}</b>{' frontend with React/Redux, UI/UX, backend with Node.js and MongoDB.'}
             </p>
           </div>
-          <a href="http://book-kit.herokuapp.com/" className="proj-screenshot right" target="_blank">
+          <a href="https://cryptic-beach-71692.herokuapp.com/" className="proj-screenshot right" target="_blank">
             <img src="img/connect4.png" alt="connect-four" />
           </a>
         </div>
         <div className="proj-container" id="onpoint">
-          <a href="http://book-kit.herokuapp.com/" className="proj-screenshot left" target="_blank">
+          <a href="#" className="proj-screenshot left" target="_blank">
             <img src="img/onpoint.png" alt="on-point" />
           </a>
           <div className="proj-detail right">
@@ -105,7 +105,7 @@ function Work() {
               <b>{'Responsibilities:'}</b>{' Backend with Node.js and MongoDB, Authentication via Passport Google OAuth2'}
             </p>
           </div>
-          <a href="http://book-kit.herokuapp.com/" className="proj-screenshot right" target="_blank">
+          <a href="https://young-anchorage-88242.herokuapp.com/" className="proj-screenshot right" target="_blank">
             <img src="img/korean-x.png" alt="korean-x" />
           </a>
         </div>
