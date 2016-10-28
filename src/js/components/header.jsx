@@ -12,7 +12,7 @@ function Header() {
           <a href="mailto:robert.st.kim@gmail.com">
             <i className="fa fa-envelope fa-3x" aria-hidden="true" />
           </a>
-          <a href="https://www.linkedin.com/in/robby-kim-29670867" target="_blank">
+          <a href="https://www.linkedin.com/in/robbykim" target="_blank">
             <i className="fa fa-linkedin-square fa-3x" aria-hidden="true" />
           </a>
           <a href="https://github.com/robbykim" target="_blank">
