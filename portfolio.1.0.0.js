@@ -21549,7 +21549,7 @@
 	        ),
 	        _react2.default.createElement(
 	          "a",
-	          { href: "https://www.linkedin.com/in/robby-kim-29670867", target: "_blank" },
+	          { href: "https://www.linkedin.com/in/robbykim", target: "_blank" },
 	          _react2.default.createElement("i", { className: "fa fa-linkedin-square fa-3x", "aria-hidden": "true" })
 	        ),
 	        _react2.default.createElement(
@@ -21980,7 +21980,7 @@
 	        ),
 	        _react2.default.createElement(
 	          "a",
-	          { href: "https://www.linkedin.com/in/robby-kim-29670867" },
+	          { href: "https://www.linkedin.com/in/robbykim" },
 	          _react2.default.createElement("i", { className: "fa fa-linkedin-square fa-3x", "aria-hidden": "true" })
 	        ),
 	        _react2.default.createElement(
