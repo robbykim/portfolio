@@ -22742,7 +22742,7 @@
 	        null,
 	        _react2.default.createElement(
 	          "a",
-	          { href: "mailto:robert.st.kim@gmail.com" },
+	          { href: "mailto:hirerobby@gmail.com" },
 	          _react2.default.createElement("i", { className: "fa fa-envelope fa-3x", "aria-hidden": "true" })
 	        ),
 	        _react2.default.createElement(
