@@ -1,4 +1,4 @@
-build
+src/build
 node_modules
 .DS_Store
 mongo_data

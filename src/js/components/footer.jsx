@@ -6,7 +6,7 @@ function Footer() {
       <div className="footer-container">
         <h2>get in touch</h2>
         <div>
-          <a href="mailto:robert.st.kim@gmail.com">
+          <a href="mailto:hirerobby@gmail.com">
             <i className="fa fa-envelope fa-3x" aria-hidden="true" />
           </a>
           <a href="https://www.linkedin.com/in/robbykim">
