@@ -7,9 +7,9 @@ function Header() {
         <h1>robby kim</h1>
         <h2>web developer</h2>
         <h3>ann arbor, mi</h3>
-        <h4>robert.st.kim@gmail.com</h4>
+        <h4>hirerobby@gmail.com</h4>
         <div className="intro-social">
-          <a href="mailto:robert.st.kim@gmail.com">
+          <a href="mailto:hirerobby@gmail.com">
             <i className="fa fa-envelope fa-3x" aria-hidden="true" />
           </a>
           <a href="https://www.linkedin.com/in/robbykim" target="_blank">
