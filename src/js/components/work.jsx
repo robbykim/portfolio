@@ -5,11 +5,25 @@ function Work() {
     <section className="work-section">
       <div className="work-container">
         <h1>work -</h1>
-        <div className="proj-container" id="book-kit">
-          <a href="http://book-kit.herokuapp.com/" className="proj-screenshot left" target="_blank">
-            <img src="img/bookkit.png" alt="book-kit" />
+        <div className="proj-container" id="mbsc">
+          <a href="https://itunes.apple.com/us/app/mbsc-weigh-the-odds/id1261031243" className="proj-screenshot left" target="_blank">
+            <img src="img/bariatrics.jpg" alt="mbsc" />
           </a>
           <div className="proj-detail right">
+            <div className="proj-title">
+              <h2>weigh the odds</h2>
+            </div>
+            <div className="proj-lang">
+              <span>react native</span>
+            </div>
+            <p>
+              {'A calculator to help patients understand their level of risk for various bariatric procedures. The app was shipped to both the App Store and Play Store. '}
+              <b>{'Responsibilities: '}</b>{'Entirety of application in React Native. Jenkins CI deployment with Fastlane'}
+            </p>
+          </div>
+        </div>
+        <div className="proj-container" id="book-kit">
+          <div className="proj-detail left">
             <div className="proj-title">
               <h2>book kit</h2>
               <a href="https://github.com/turbo-octo-happiness/book-kit/" target="_blank">
@@ -30,9 +44,15 @@ function Work() {
               <b>{'Responsibilities:'}</b>{' Frontend with React/Redux, UI/UX, some backend in earlier iterations.'}
             </p>
           </div>
+          <a href="http://book-kit.herokuapp.com/" className="proj-screenshot right" target="_blank">
+            <img src="img/bookkit.png" alt="book-kit" />
+          </a>
         </div>
         <div className="proj-container" id="connect-four">
-          <div className="proj-detail left">
+          <a href="https://cryptic-beach-71692.herokuapp.com/" className="proj-screenshot left" target="_blank">
+            <img src="img/connect4.png" alt="connect-four" />
+          </a>
+          <div className="proj-detail right">
             <div className="proj-title">
               <h2>connect 4</h2>
               <a href="https://github.com/robbykim/connect-four" target="_blank">
@@ -51,35 +71,6 @@ function Work() {
             <p>
               {'An online game that allows you to play the classic connect four game with friends from different places. '}
               <b>{'Responsibilities:'}</b>{' frontend with React/Redux, UI/UX, backend with Node.js and MongoDB.'}
-            </p>
-          </div>
-          <a href="https://cryptic-beach-71692.herokuapp.com/" className="proj-screenshot right" target="_blank">
-            <img src="img/connect4.png" alt="connect-four" />
-          </a>
-        </div>
-        <div className="proj-container" id="onpoint">
-          <a href="#" className="proj-screenshot left" target="_blank">
-            <img src="img/onpoint.png" alt="on-point" />
-          </a>
-          <div className="proj-detail right">
-            <div className="proj-title">
-              <h2>onpoint scores</h2>
-              <a href="https://github.com/robbykim/onpoint-react-native" target="_blank">
-                <i className="fa fa-github fa-2x" aria-hidden="true" />
-              </a>
-            </div>
-            <div className="proj-lang">
-              <span>react native</span>
-              <span>-</span>
-              <span>javascript</span>
-              <span>-</span>
-              <span>fetch api</span>
-              <span>-</span>
-              <span>ios</span>
-            </div>
-            <p>
-              {'A simple iOS application built in React Native that gives you the scores for games in the current week of the NFL. Has the ability to refresh on pull-down. '}
-              <b>{'Responsibilities:'}</b>{' Entirety of the application.'}
             </p>
           </div>
         </div>

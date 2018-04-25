@@ -5,8 +5,8 @@ function Header() {
     <header className="head-section">
       <div className="intro-head">
         <h1>robby kim</h1>
-        <h2>web developer</h2>
-        <h3>ann arbor, mi</h3>
+        <h2>software engineer</h2>
+        <h3>austin, tx</h3>
         <h4>hirerobby@gmail.com</h4>
         <div className="intro-social">
           <a href="mailto:hirerobby@gmail.com">
@@ -22,22 +22,26 @@ function Header() {
       </div>
       <div className="intro-content">
         <p>
-          {'Hi! I\'m Robby. I\'m a web developer with an architectural design background from the '}
-          <a href="http://www.espn.com/college-football/team/_/id/130" target="_blank">{'University of Michigan'}</a>
-          {'. I build full stack applications but specialize on the front end with React, Redux, and Design. I also love cycling, playing my guitar and rapping Hamilton.'}
+          {'Hi! I\'m Robby, a software engineer, cycling enthusiast, and proud '}
+          <a href="http://www.espn.com/college-football/team/_/id/130">Wolverine</a>
+          {`. I bring two years of experience developing iOS, Android, and web apps from conception to production to the table.
+            I love bringing products to life to solve real problems for my clients and help them gain competitive edge.
+          `}
         </p>
         <div className="skills-section">
           <div className="skills-lang">
             <h3>languages:</h3>
             <img src="img/js.svg" alt="javascript" />
-            <img src="img/css.svg" alt="css3" />
-            <img src="img/html.svg" alt="html5" />
+            <img src="img/python.png" alt="python" />
+            <img src="img/android.png" alt="android" />
+            <img src="img/swift.png" alt="swift" />
           </div>
           <div className="skills-framework">
             <h3>frameworks:</h3>
             <img src="img/react.svg" alt="react" />
+            <img src="img/django.png" alt="django" />
+            <img src="img/meteor.png" alt="meteor" />
             <img src="img/node.svg" alt="node" />
-            <img src="img/rn.svg" alt="react native" />
             <img src="img/jquery.svg" alt="jquery" />
           </div>
         </div>
