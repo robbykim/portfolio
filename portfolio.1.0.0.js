@@ -22460,7 +22460,7 @@
 	      _react2.default.createElement(
 	        "span",
 	        null,
-	        "\xA9 robby kim 2016"
+	        "\xA9 robby kim 2018"
 	      )
 	    )
 	  );
